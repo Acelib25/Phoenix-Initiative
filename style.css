@@ -5,7 +5,7 @@ h1 {
     color: whitesmoke;
     font-size: 50px;
 }
-p{
+p, span{
     color: whitesmoke;
     font: small-caps 20px "Lucida Console", Courier, monospace;
 }
@@ -98,4 +98,10 @@ div{
     max-width: 800px;
     align-items: center;
     text-align: center;
+}
+.spoiler, .spoiler * {
+			color:transparent !important;
+		}
+.spoiler {
+    text-shadow:0 0 12px rgb(255, 255, 255);
 }
